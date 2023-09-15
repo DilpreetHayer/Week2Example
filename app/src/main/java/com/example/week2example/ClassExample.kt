@@ -4,8 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.week2example.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity() {
-
+class ClassExample : AppCompatActivity() {
     //Step 1 - define a global variable to hold all of the id's
     private lateinit var binding: ActivityMainBinding
 
@@ -17,9 +16,5 @@ class MainActivity : AppCompatActivity() {
 
         //Step 3 - connect the view to binding root
         setContentView(binding.root)
-
-        binding.button.setOnClickListener{
-
-        }
     }
 }
